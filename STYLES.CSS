@@ -1,0 +1,90 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #85206b;
+    color: white;
+}
+
+#name {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    font-style: italic;
+    color: #d887b6;
+}
+
+section {
+    padding: 20px;
+    margin: 20px 0;
+}
+
+#about img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+#skills .skill {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+#skills .skill img {
+    width: 50px;
+    height: 50px;
+}
+
+#recommendations-list {
+    margin-top: 20px;
+}
+
+#home-icon a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #333;
+}
+
+#home-icon a:hover {
+    color: #eba7dc;
+}
+
+/* Hover effects */
+nav ul li a:hover {
+    color: hsl(294, 93%, 88%);
+    text-decoration: underline;
+}
+
+button {
+    padding: 10px;
+    background-color: #842b96;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #b11f9d;
+}
